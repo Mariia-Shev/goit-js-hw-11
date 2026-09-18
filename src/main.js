@@ -11,10 +11,10 @@ import {
 
 export const form = document.querySelector('.form');
 export const input = document.querySelector('.form input');
+hideLoader();
 
 form.addEventListener('submit', async event => {
   event.preventDefault();
-
   const searchInput = input.value.trim();
 
   if (!searchInput) {
