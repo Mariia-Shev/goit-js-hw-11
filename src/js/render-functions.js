@@ -3,7 +3,7 @@ import 'simplelightbox/dist/simple-lightbox.min.css';
 import '../css/loader.css';
 
 const gallery = document.querySelector('.gallery');
-const loader = document.querySelector('span');
+const loader = document.querySelector('#loader');
 
 // Create the lightbox instance once; we refresh() it whenever new
 // .gallery-link items are added instead of re-instantiating it.
